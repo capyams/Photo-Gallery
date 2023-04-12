@@ -46,6 +46,8 @@ table {
     border-spacing: 0;
 }
 
+/* start of code*/
+
 html {
     font-family: Arial, Helvetica, sans-serif;
     width: 485px;
@@ -54,8 +56,9 @@ html {
     line-height: 1.5;
 }
 p {
-    font-size: 1.23em;
+    font-size: 1.25em;
     padding: 0 10px;
+    line-height: 1.5em;
 }
 figcaption, label, input, small {
     font-size: 1em;
@@ -66,20 +69,22 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 6px 0 0px 0;
 }
 h1 {
     font-size: 3em;
     color: #007d7b;
     margin: 0px 0px;
+    padding: 30px 0;
 }
 h2 {
     font-size: 2em;
+    padding: 15px 0;
 }
 
 h1, h2 {
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 h1, section {
@@ -89,6 +94,7 @@ h1, section {
 body{
     margin: 0px 5px;
     padding: 0 10px;
+    line-height: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -103,6 +109,7 @@ section {
 
 nav {
     background-color: black;
+    padding: 25px 25px 25px 45px;
 }
 
 [href="#top"] {
@@ -111,7 +118,10 @@ nav {
     right: 0px;
     padding: 10px;
     background-color: #00000070;
-    border-radius: 6px;
+}
+
+li:last-of-type {
+    padding: 0px;
 }
 
 figcaption {
@@ -124,6 +134,7 @@ figcaption {
     text-align: center;
     font-weight: medium;
     text-transform: uppercase;
+    padding: 10px 0;
 }
 
 figure {
